@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Restaurant = () => {
+const Restaurant = ({name , type, price, rating, imageURL}) => {
   return (
     <div>
-      <p>Restaurant</p>
+      <p>{name}</p>
+      <p>{type}</p>
+      <p>{price}</p>
+      <p>{rating}</p>
+      <p>{imageURL}</p>
     </div>
   )
 }
