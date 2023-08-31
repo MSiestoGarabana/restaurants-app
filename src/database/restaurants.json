@@ -1,0 +1,58 @@
+[
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Greek",
+        "pryce": "10-20",
+        "rating": "4"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/1628020/pexels-photo-1628020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Japanese",
+        "pryce": "15-25", 
+        "rating": "4.5"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/2291603/pexels-photo-2291603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Turkish",
+        "pryce": "10-20", 
+        "rating": "4.5"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/8864543/pexels-photo-8864543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Italian",
+        "pryce": "10-20", 
+        "rating": "4"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/12916873/pexels-photo-12916873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Chinese",
+        "pryce": "10-15", 
+        "rating": "4"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/1556696/pexels-photo-1556696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Czech",
+        "pryce": "15-20", 
+        "rating": "3.5"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/1563045/pexels-photo-1563045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "Burguers",
+        "pryce": "10-20", 
+        "rating": "3.5"
+    },
+    {
+        "name": "restaurant1",
+        "imageURL": "https://images.pexels.com/photos/5785545/pexels-photo-5785545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "South Korean",
+        "pryce": "25-30", 
+        "rating": "4.5"
+    }
+]
