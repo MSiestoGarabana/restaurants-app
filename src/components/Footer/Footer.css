@@ -1,6 +1,7 @@
 .footer{
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    bottom: 0%;
     width: 100%;
-    height: 5%;
+    font-size: x-small;
 }

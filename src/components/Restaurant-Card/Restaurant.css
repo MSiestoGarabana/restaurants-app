@@ -1,4 +1,16 @@
 .cardContent{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.restaurantCard__container--ratingPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.restaurantCard__container--cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
