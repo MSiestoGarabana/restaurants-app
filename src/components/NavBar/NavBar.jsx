@@ -22,7 +22,7 @@ const NavBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Restaurants-app
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
