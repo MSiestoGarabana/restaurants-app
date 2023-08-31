@@ -1,12 +1,13 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
+import { Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <p>Developed by Miguel Siesto</p>
+    <div className="footer">
+      <Typography variant="body2">Developed by Miguel Siesto</Typography>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

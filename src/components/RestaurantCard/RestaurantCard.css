@@ -1,0 +1,55 @@
+.restaurantCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  padding-right: 10px;
+}
+
+.restaurantCard__cardContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.restaurandCard__title-wrapper {
+  padding: 0 15px;
+}
+
+.restaurantCard__image {
+  flex: 1 1 auto;
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.restaurantCard__container--ratingPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.restaurantCard__container--cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 650px) {
+  .restaurantCard__cardContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .restaurandCard__title-wrapper {
+    padding: 0;
+  }
+  .restaurantCard__image {
+    flex: 0 0 200px;
+    height: 200px;
+  }
+}
