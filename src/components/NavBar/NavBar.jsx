@@ -7,9 +7,11 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
+import './NavBar.css'
+
 const NavBar = () => {
   return (
-    <Box sx={{ flexGrow: 2 }}>
+    <Box className="navBar" sx={{ flexGrow: 2 }}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
