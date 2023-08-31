@@ -1,14 +1,17 @@
 import React from 'react'
-import Restaurant from '../Restaurant/Restaurant'
+import RestaurantCard from '../Restaurant-Card/Restaurant'
 import RestaurantsData from '../../database/restaurants.json'
+
+import './RestaurantsList.css'
+
 const RestaurantsList = () => {
   console.log(RestaurantsData)
   return (
-    <div>
+    <div className='restaurantsList__body'>
       {RestaurantsData.map((restaurant, index) => {
         const {name, type, price, rating, imageURL} = restaurant
         return (
-          <Restaurant 
+          <RestaurantCard
             key={index}
             name={name}
             type={type}
