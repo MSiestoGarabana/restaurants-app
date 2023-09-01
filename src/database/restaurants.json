@@ -4,7 +4,7 @@
         "imageURL": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Greek",
         "price": "10-20",
-        "rating": "4",
+        "rating": 4,
         "description": "Transport yourself to the Mediterranean with our authentic Greek cuisine. Enjoy fresh salads, grilled meats, and traditional dishes amidst a rustic, olive tree-filled ambiance."
     },
     {
@@ -12,7 +12,7 @@
         "imageURL": "https://images.pexels.com/photos/1628020/pexels-photo-1628020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Japanese",
         "price": "15-25", 
-        "rating": "4.5",
+        "rating": 4.5,
         "description": "Immerse yourself in the art of Japanese cuisine at Sakura. From exquisite sushi rolls to delicate sashimi, we offer a taste of Japan in a serene, traditional setting."
     },
     {
@@ -20,15 +20,15 @@
         "imageURL": "https://images.pexels.com/photos/2291603/pexels-photo-2291603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Turkish",
         "price": "10-20", 
-        "rating": "4.5",
-        "description": "Experience the rich flavors of Turkey at Bosphorus Bites. Our menu features succulent kebabs, flavorful mezes, and sweet baklava, all served in a vibrant and welcoming atmosphere."
+        "rating": 4.5,
+        "description": "Experience the rich flavors of Turkey at Bosphorus. Our menu features succulent kebabs, flavorful mezes, and sweet baklava, all served in a vibrant and welcoming atmosphere."
     },
     {
         "name": "Mamma Mia",
         "imageURL": "https://images.pexels.com/photos/8864543/pexels-photo-8864543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Italian",
         "price": "10-20", 
-        "rating": "4",
+        "rating": 3,
         "description": "Mamma Mia Trattoria is your passport to Italy. Enjoy homemade pasta, wood-fired pizzas, and tiramisu in a cozy, family-friendly Italian setting."
     },
     {
@@ -36,7 +36,7 @@
         "imageURL": "https://images.pexels.com/photos/12916873/pexels-photo-12916873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Chinese",
         "price": "10-15", 
-        "rating": "4",
+        "rating": 4,
         "description": "Satisfy your craving for Chinese cuisine at Dragon Wok Kitchen. We offer a diverse range of dishes from various regions of China, served in a contemporary, dragon-themed ambiance."
     },
     {
@@ -44,7 +44,7 @@
         "imageURL": "https://images.pexels.com/photos/1556696/pexels-photo-1556696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Czech",
         "price": "15-20", 
-        "rating": "3.5",
+        "rating": 3.5,
         "description": "Explore the hearty flavors of Czech cuisine at Prague Palate Tavern. From goulash to schnitzel and pilsner beer, you'll get a taste of traditional Czech dishes in a cozy, Old World setting."
     },
     {
@@ -52,7 +52,7 @@
         "imageURL": "https://images.pexels.com/photos/1563045/pexels-photo-1563045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "Burguers",
         "price": "10-20", 
-        "rating": "3.5",
+        "rating": 3.5,
         "description": "Flame & Flavor Burgers is your go-to spot for mouthwatering burgers. Our flame-grilled patties are paired with a variety of toppings and served in a vibrant, casual atmosphere."
     },
     {
@@ -60,7 +60,7 @@
         "imageURL": "https://images.pexels.com/photos/5785545/pexels-photo-5785545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "type": "South Korean",
         "price": "25-30", 
-        "rating": "4.5",
+        "rating": 5,
         "description": "Dive into the vibrant world of South Korean cuisine at Seoul Spice Kitchen. From spicy kimchi to sizzling bulgogi, we offer an array of Korean delights in a contemporary, Seoul-inspired setting."
     }
 ]
