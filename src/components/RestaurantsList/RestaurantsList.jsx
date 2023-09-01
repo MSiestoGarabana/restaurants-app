@@ -8,11 +8,12 @@ const RestaurantsList = () => {
   return (
     <div className="restaurantsList">
       {RestaurantsData.map((restaurant, index) => {
-        const { name, type, price, rating, imageURL } = restaurant;
+        const { name, description, type, price, rating, imageURL } = restaurant;
         return (
           <RestaurantCard
             key={index}
             name={name}
+            description={description}
             type={type}
             price={price}
             rating={rating}
