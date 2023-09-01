@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -12,8 +11,17 @@ import { ExpandMore } from "./ExpandMore";
 import { setHours, setMinutes } from "date-fns";
 
 import "./RestaurantCard.css";
+import RestaurantInfo from "./RestaurantInfo";
+import { getFormattedDateAndHour } from "../../utils/formatDateUtils";
 
-const RestaurantCard = ({ name, type, price, rating, imageURL }) => {
+const RestaurantCard = ({
+  name,
+  description,
+  type,
+  price,
+  rating,
+  imageURL,
+}) => {
   const [expanded, setExpanded] = useState(false);
 
   const [startDate, setStartDate] = useState(
@@ -21,19 +29,8 @@ const RestaurantCard = ({ name, type, price, rating, imageURL }) => {
   );
 
   const [reservation, setReservation] = useState(undefined);
-  {
-    /*TODO EXTRAER A UN HOOK */
-  }
-  const newDate = new Date(reservation);
-  const dateOptions = { year: "numeric", month: "long", day: "numeric" };
-  const hourOptions = {
-    hour: "numeric",
-    minute: "numeric",
-    second: "numeric",
-    timeZoneName: "short",
-  };
-  const formatedDate = newDate.toLocaleDateString("en-US", dateOptions);
-  const formatedHour = newDate.toLocaleTimeString("en-US", hourOptions);
+
+  const { formatedDate, formatedHour } = getFormattedDateAndHour(reservation);
 
   function handleExpandClick() {
     setExpanded(!expanded);
@@ -68,23 +65,16 @@ const RestaurantCard = ({ name, type, price, rating, imageURL }) => {
       </div>
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        {/*TODO: EXTRAER A COMPONENTE*/}
-        <CardContent className="restaurantCard__container--cardContent">
-          <Typography>{`${price}$`}</Typography>
-          <div>
-            <MyDatePicker
-              label="Make a reservation"
-              startDate={startDate}
-              setStartDate={setStartDate}
-              handleReservation={handleReservation}
-            />
-          </div>
-          {reservation && (
-            <Typography>
-              A reservation was made on {formatedDate} at {formatedHour}
-            </Typography>
-          )}
-        </CardContent>
+        <RestaurantInfo
+          description={description}
+          price={price}
+          startDate={startDate}
+          setStartDate={setStartDate}
+          handleReservation={handleReservation}
+          formatedDate={formatedDate}
+          formatedHour={formatedHour}
+          reservation={reservation}
+        />
       </Collapse>
     </Card>
   );
