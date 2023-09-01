@@ -3,11 +3,10 @@
 Small single page application made as part of the technical test of Welkhome tech for a junior frontend positon.
 The user can choose from a list of restaurants and select a date and time to make a reservation. If there is a reservation made, information with the reservation data will be displayed and a button to cancel the reservation will be shown.
 
-### Try it
+### Try it!
 
 https://restaurants-app-gules.vercel.app/
 
-![](https://github.com/MSiestoGarabana/restaurants-app/blob/main/Vite%20%2B%20React%20-%20Google%20Chrome%202023-09-01%2015-51-41.mp4)
 
 ## MUI
 
