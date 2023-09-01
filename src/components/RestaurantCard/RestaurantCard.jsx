@@ -5,8 +5,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Collapse, Rating } from "@mui/material";
-import MyDatePicker from "../DatePicker/DatePicker";
 import { ExpandMore } from "./ExpandMore";
+import reservationIcon from "../../../public/reservationIcon.png";
 
 import { setHours, setMinutes } from "date-fns";
 
@@ -42,6 +42,19 @@ const RestaurantCard = ({
 
   return (
     <Card className="restaurantCard">
+      {reservation && (
+        <div className="restaurantCard__reservationPopUp">
+          <img
+            className="restaurantCard__reservationIcon"
+            src={reservationIcon}
+            alt={"reservationIcon"}
+          />
+          <Typography variant="h6" color={"white"}>
+            reserved
+          </Typography>
+        </div>
+      )}
+
       <div className="restaurantCard__cardContent">
         <CardMedia
           className="restaurantCard__image"
@@ -74,6 +87,7 @@ const RestaurantCard = ({
           formatedDate={formatedDate}
           formatedHour={formatedHour}
           reservation={reservation}
+          setReservation={setReservation}
         />
       </Collapse>
     </Card>
