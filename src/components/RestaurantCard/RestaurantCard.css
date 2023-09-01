@@ -52,4 +52,7 @@
     flex: 0 0 200px;
     height: 200px;
   }
+  .restaurantCard__container--cardContent{
+    padding: 30px;
+  }
 }

@@ -5,7 +5,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import { setHours, setMinutes } from "date-fns";
 
-// TODO refactorizar new Date('2000-01-01:12:00:00Z')
 const includeTimes = [
   setHours(setMinutes(new Date(), 0), 12),
   setHours(setMinutes(new Date(), 30), 12),
