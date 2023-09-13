@@ -1,6 +1,6 @@
 # Restaurants App
 
-Small single page application made as part of the technical test of Welkhome tech for a junior frontend positon.
+Small single page application made as part of the "Welkhome tech´s" technical test for a junior frontend positon.
 The user can choose from a list of restaurants and select a date and time to make a reservation. If there is a reservation made, information with the reservation data will be displayed and a button to cancel the reservation will be shown.
 
 ### Try it
